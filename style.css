@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  text-transform: capitaliza;
+  font-family: 'Poppins', sans-serif;
+  transition:all .3s;
+}
+
+html {
+  font-size: 60%;
+  overflow-x:hidden;
+}
