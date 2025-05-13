@@ -23,4 +23,41 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem 3%;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.fact-item{
+  flex:1 1 16rem;
+  background-color: #f1f1f1;
+  border-radius: 1rem;
+  padding: 5rem;
+  text-align: center;
+  box-shadow: 0 1.5rem 2rem rgba(0,0,0,.8);
+  transition: .5s;
+}
+
+.fact-item{
+  transform: translatey(-1rem);
+}
+
+.fact-item i {
+  color: dodgerblue;
+  font-size: 8rem;
+  font-weight: 800;
+}
+
+
+.fact-item h5 {
+  font-size: 2rem;
+  white-space: nowrap;
+  margin: 1.5rem 0rem;
+}
+
+
+.fact-item h2 {} 
