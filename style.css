@@ -60,4 +60,7 @@ html {
 }
 
 
-.fact-item h2 {} 
+.fact-item h2 {
+  font-size: 5rem;
+  font-weight: 700;
+} 
